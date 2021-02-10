@@ -1,0 +1,669 @@
+/* Notes */
+
+/* color */
+/* background color */
+/* padding */
+/* margin */
+
+/* font size */
+/* font weight */
+/* text align */
+
+/* border */
+
+/* general */
+
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+	display: block;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+b,
+strong {
+	font-weight: inherit;
+}
+b,
+strong {
+	font-weight: bolder;
+}
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+dfn {
+	font-style: italic;
+}
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+audio,
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+img {
+	border-style: none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button,
+input {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+textarea {
+	overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+details,
+menu {
+	display: block;
+}
+summary {
+	display: list-item;
+}
+canvas {
+	display: inline-block;
+}
+template {
+	display: none;
+}
+[hidden] {
+	display: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+	background-color: #ededed;
+}
+
+/* Below are the general styles - linking different fonts to their elements. */
+
+body,
+ul,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.wrapper {
+	max-width: 1190px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* TOPADD */
+
+.topad {
+	background-color: #1357a4;
+}
+
+.topad img {
+	width: 100%;
+}
+
+/* MENU */
+
+.menu {
+	background-color: #ffffff;
+}
+
+.menu .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+/*  */
+
+.menu_logo {
+	width: 20%;
+}
+
+.menu_logo .logo_small {
+	width: 14rem;
+}
+
+/*  */
+
+.menu_search {
+	display: flex;
+	/* background-color: pink; */
+	width: 55%;
+	height: 4rem;
+	border-radius: 7px;
+}
+
+.menu_search input {
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid grey;
+	padding: 1rem;
+	font-size: 1.6rem;
+}
+
+.menu_search button {
+	background-color: orange;
+	color: white;
+	border: transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 10rem;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+
+/*  */
+
+.menu_options {
+	display: flex;
+	width: 20%;
+	/* background-color: green; */
+}
+
+.menu_options div {
+	display: flex;
+	align-items: center;
+	margin-left: 1.5rem;
+}
+
+.menu_options .logo_small {
+	width: 2rem;
+	margin-right: 1rem;
+}
+
+/* HEADER */
+
+.headerbox {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.topthreeboxes {
+	display: flex;
+	padding-bottom: 1rem;
+}
+
+/*  */
+
+.lefticons {
+	width: 30%;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.icontext {
+	display: flex;
+	margin-bottom: 1rem;
+}
+.icontext .icon_small {
+	width: 2rem;
+	margin-right: 1rem;
+}
+
+/*  */
+
+.centerimage {
+	width: 100%;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.centerimage img {
+	width: 100%;
+}
+
+/*  */
+
+.rightboxes .boxthree {
+	border-radius: 5px;
+	padding: 0.5rem;
+	background-color: #ffffff;
+}
+
+.boxthree {
+	margin-bottom: 2rem;
+}
+
+.boxthree .options {
+	display: flex;
+	margin-bottom: 1.4rem;
+}
+
+.boxthree .icon_right {
+	width: 4rem;
+	height: 4rem;
+	margin-right: 1rem;
+}
+
+.boxfour img {
+	width: 218px;
+	height: 184.219px;
+}
+
+/* bottom four boxes with icon in the header */
+
+.bottomfour {
+	display: flex;
+}
+
+.bottomfour .box {
+	background-color: #ffffff;
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-left: 1rem;
+	border-radius: 5px;
+}
+
+.bottomfour .boxeone {
+	margin-left: 0rem;
+}
+
+.bottomfour .box img {
+	width: 5rem;
+	margin-right: 1.5rem;
+}
+
+/* BODY */
+
+/* General styles for all sections */
+
+.allsections {
+	margin-bottom: 5rem;
+}
+
+.sect- {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.sectionheading {
+	font-size: 2rem;
+	font-weight: 100;
+	margin-top: 1rem;
+}
+
+.headingspecial {
+	/* For the blue headings */
+	background-color: blue;
+	color: white;
+	padding: 1rem;
+}
+
+.allitems {
+	display: flex;
+}
+
+.allitems .item {
+	padding: 2rem;
+}
+
+.item img {
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+.itemname,
+.itemprice,
+.itemoldprice {
+	margin-bottom: 0.5rem;
+}
+
+.itemname {
+	font-size: 1.7rem;
+}
+
+.itemoldprice {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.banner img {
+	/* for the banner in section 2 */
+	width: 100%;
+}
+
+/* 	Below are the styles for two adds 
+	in section 2 and section 3*/
+
+.twoads {
+	display: flex;
+}
+
+.twoads img {
+	width: 50%;
+}
+
+/* section four */
+
+.sectionfour p {
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+}
+
+.sectionfour h1 {
+	margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+	background-color: #282828;
+	color: white;
+}
+
+.levelone_one,
+.levelone_two,
+.levelone_three {
+	height: 100%;
+}
+
+.levelone_one p,
+.levelone_two p,
+.levelone_three p {
+	font-size: 1.3rem;
+}
+
+/* level one */
+
+.levelone {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+	border-bottom: 1px solid white;
+	margin-bottom: -6rem;
+}
+
+/* levelone one */
+
+.levelone img {
+	width: 15rem;
+	border-radius: 10px;
+}
+
+/* levelone two */
+
+.levelone_two {
+	/* background-color: red; */
+	padding: 1rem;
+	width: 40%;
+}
+
+.levelone_two h2,
+.levelone_two p,
+.levelone_two input {
+	margin-bottom: 1rem;
+}
+
+.levelone_two input {
+	width: 80%;
+	height: 3rem;
+	border-radius: 5px;
+	border: transparent;
+	padding: 1rem;
+}
+
+.levelone_two .inputbuttons {
+	display: flex;
+}
+
+.levelone_two .inputbuttons button {
+	width: 10rem;
+	margin-right: 0.5rem;
+	margin-left: 1rem;
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: transparent;
+	font-size: 1.3rem;
+	color: white;
+}
+
+/* levelone three */
+
+.levelone_three {
+	padding: 1rem;
+}
+
+.levelone_three .firstbox {
+	display: flex;
+}
+
+.levelone_three .firstbox .text {
+	margin-left: 1.5rem;
+}
+
+.levelone_three .firstbox h2 {
+	margin-bottom: 1rem;
+}
+
+.levelone_three .firstbox img {
+	width: 4em;
+}
+
+.levelone_three .secondbox {
+	display: flex;
+	padding: 1rem;
+	margin-top: -5rem;
+}
+
+/* Level two */
+
+.leveltwo {
+	background-color: #323232;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.all_lists {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.list ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.list h2 {
+	margin-bottom: 2rem;
+}
+
+.list ul a {
+	font-size: 1.3rem;
+	margin-bottom: 0.8rem;
+}
+
+.list .countries {
+	display: flex;
+	justify-content: space-between;
+}
