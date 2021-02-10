@@ -559,8 +559,8 @@ footer {
 .levelone {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 	border-bottom: 1px solid white;
 	margin-bottom: -6rem;
 }
@@ -643,8 +643,8 @@ footer {
 
 .leveltwo {
 	background-color: #323232;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 
 .all_lists {
@@ -684,4 +684,9 @@ The code below helps facilitate this alignment.
 
 .leveltwo_four {
 	margin-left: 7rem;
+}
+
+.copyright {
+	padding: 1rem;
+	text-align: center;
 }
