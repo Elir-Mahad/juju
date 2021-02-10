@@ -575,6 +575,12 @@ footer {
 .levelone_one p,
 .levelone_two p,
 .levelone_three p {
+	font-size: 1.1rem;
+}
+
+.levelone_one h2,
+.levelone_two h2,
+.levelone_three h2 {
 	font-size: 1.3rem;
 }
 
@@ -600,7 +606,6 @@ footer {
 
 .levelone_two {
 	margin-left: 10rem;
-	/* background-color: red; */
 	padding: 1rem;
 	width: 50%;
 }
@@ -630,7 +635,7 @@ footer {
 	border-radius: 5px;
 	border: 1px solid white;
 	background-color: transparent;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	color: white;
 	height: 4rem;
 }
@@ -673,6 +678,7 @@ footer {
 
 .all_lists {
 	display: flex;
+	justify-content: space-between;
 }
 
 .list ul {
@@ -682,32 +688,17 @@ footer {
 
 .list h2 {
 	margin-bottom: 2rem;
+	font-size: 1.3rem;
 }
 
 .list ul a {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	margin-bottom: 0.8rem;
 }
 
 .list .countries {
 	display: flex;
 	justify-content: space-between;
-}
-
-/* In the picture, the different lists of level 2 are aligned with
-the beggining of each of the three boxes in level 1. 
-The code below helps facilitate this alignment.
-*/
-
-.leveltwo_two {
-	margin-left: 6rem;
-}
-.leveltwo_three {
-	margin-left: 16rem;
-}
-
-.leveltwo_four {
-	margin-left: 7rem;
 }
 
 .copyright {
