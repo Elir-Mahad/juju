@@ -360,7 +360,6 @@ p {
 	margin-bottom: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: red;
 }
 
 .topthreeboxes {
@@ -748,6 +747,7 @@ footer {
 	.menu .wrapper {
 		display: flex;
 		flex-direction: column;
+		padding-bottom: 2rem;
 	}
 
 	.menu_logo .logo_small {
@@ -756,6 +756,10 @@ footer {
 
 	.menu_search {
 		width: 90%;
+	}
+
+	.menu_search input {
+		padding: 0.5rem;
 	}
 
 	.menu_search button {
@@ -788,7 +792,6 @@ footer {
 		margin: 0.7rem;
 		padding: 0.5rem;
 		border-radius: 5px;
-		box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
 	}
 
 	.icontext .icon_small {
@@ -806,7 +809,6 @@ footer {
 	.bottomfour .box {
 		display: flex;
 		flex-direction: column;
-		margin: 0.2rem;
 	}
 
 	.bottomfour .box img {
@@ -819,7 +821,19 @@ footer {
 		width: calc((130% / 3) - 0%);
 		margin: 2%;
 	}
+
+	.headingspecial {
+		border-radius: 0rem;
+	}
+
 	/*  */
+
+	.levelone,
+	.leveltwo {
+		padding: 1rem;
+		margin-bottom: 0rem;
+		padding-top: 2rem;
+	}
 	.levelone_three {
 		display: none;
 	}
