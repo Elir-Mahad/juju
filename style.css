@@ -340,7 +340,6 @@ p {
 .menu_options {
 	display: flex;
 	width: 20%;
-	/* background-color: green; */
 }
 
 .menu_options div {
@@ -361,6 +360,7 @@ p {
 	margin-bottom: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	background-color: red;
 }
 
 .topthreeboxes {
@@ -704,4 +704,98 @@ footer {
 .copyright {
 	padding: 1rem;
 	text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1207px) {
+	.menu_options div {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0.5rem;
+		padding-left: 0.5rem;
+		width: 100%;
+	}
+
+	.headerbox {
+		padding: 5rem;
+	}
+
+	.rightboxes {
+		display: none;
+	}
+}
+
+@media (max-width: 1044px) {
+	.centerimage {
+		align-self: center;
+	}
+}
+
+@media (max-width: 834px) {
+	.menu .wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menu_logo .logo_small {
+		width: 10rem;
+	}
+
+	.menu_search {
+		width: 90%;
+	}
+
+	.menu_search button {
+		font-size: 1.2rem;
+	}
+
+	.menu_options {
+		display: none;
+	}
+	/*  */
+
+	.topthreeboxes {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lefticons {
+		width: 100%;
+	}
+
+	.sixicons {
+		background-color: blue;
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
+	}
+
+	.icontext {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.icontext .icon_small {
+		width: 3rem;
+	}
+
+	.icontext p {
+		font-size: 1.3rem;
+		background-color: green;
+		/* height: 6rem; */
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 384px) {
 }
