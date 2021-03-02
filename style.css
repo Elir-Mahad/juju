@@ -718,7 +718,7 @@ footer {
 	}
 
 	.headerbox {
-		padding: 5rem;
+		padding: 3rem;
 	}
 
 	.rightboxes {
@@ -729,6 +729,18 @@ footer {
 @media (max-width: 1044px) {
 	.centerimage {
 		align-self: center;
+	}
+	.allitems {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.item {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: calc((100% / 3) - 0%);
+		margin: 2%;
 	}
 }
 
@@ -765,29 +777,51 @@ footer {
 	}
 
 	.sixicons {
-		background-color: blue;
 		display: flex;
-		justify-content: space-evenly;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		padding: 1rem;
+		justify-content: center;
 	}
 
 	.icontext {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 0.7rem;
+		padding: 0.5rem;
+		border-radius: 5px;
+		box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
 	}
 
 	.icontext .icon_small {
+		display: block;
+		margin: auto;
 		width: 3rem;
 	}
 
 	.icontext p {
 		font-size: 1.3rem;
-		background-color: green;
-		/* height: 6rem; */
-		padding: 1rem;
+		text-align: center;
+		margin-top: 0.5rem;
+	}
+
+	.bottomfour .box {
+		display: flex;
+		flex-direction: column;
+		margin: 0.2rem;
+	}
+
+	.bottomfour .box img {
+		margin-right: 0rem;
+		margin-bottom: 0.5rem;
+	}
+	/*  */
+	.item {
+		position: relative;
+		width: calc((130% / 3) - 0%);
+		margin: 2%;
+	}
+	/*  */
+	.levelone_three {
+		display: none;
 	}
 }
 
