@@ -778,9 +778,6 @@ footer {
 
 	.lefticons {
 		width: 100%;
-	}
-
-	.sixicons {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -862,10 +859,20 @@ footer {
 	}
 }
 
-@media (max-width: 715px) {
-}
-
 @media (max-width: 600px) {
+	.headerbox {
+		padding: 1rem;
+	}
+
+	.bottomfour img {
+		widows: 3rem;
+	}
+
+	.bottomfour .box p {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+
 	.icontext .icon_small {
 		width: 2rem;
 	}
@@ -873,10 +880,31 @@ footer {
 	.icontext p {
 		font-size: 1.2rem;
 	}
+
+	.sectionheading {
+		font-size: 1.7rem;
+		text-align: center;
+	}
+
+	.item {
+		align-items: center;
+	}
+
+	.item img {
+		width: 80%;
+	}
+
+	.itemname {
+		font-size: 1.5rem;
+	}
+
+	.itemprice {
+		font-size: 1.5rem;
+	}
 }
 
-@media (max-width: 414px) {
-}
-
-@media (max-width: 384px) {
+@media (max-width: 320px) {
+	.leveltwo {
+		display: none;
+	}
 }
