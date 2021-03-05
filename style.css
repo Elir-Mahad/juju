@@ -783,6 +783,7 @@ footer {
 	.sixicons {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 
 	.icontext {
@@ -834,12 +835,44 @@ footer {
 		margin-bottom: 0rem;
 		padding-top: 2rem;
 	}
+
+	.levelone {
+		justify-content: space-evenly;
+	}
+
+	.levelone_two {
+		margin-left: unset;
+	}
+
+	.levelone_two .inputbuttons {
+		flex-direction: column;
+	}
+
+	.levelone_two button {
+		display: none;
+	}
+
 	.levelone_three {
 		display: none;
 	}
+
+	.leveltwo .list {
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
+}
+
+@media (max-width: 715px) {
 }
 
 @media (max-width: 600px) {
+	.icontext .icon_small {
+		width: 2rem;
+	}
+
+	.icontext p {
+		font-size: 1.2rem;
+	}
 }
 
 @media (max-width: 414px) {
